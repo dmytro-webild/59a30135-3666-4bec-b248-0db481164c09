@@ -59,7 +59,7 @@ export default function LandingPage() {
       carouselItems={[
         {
           id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg?_wi=1",
           imageAlt: "Gradilište",
         },
         {
@@ -128,7 +128,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg?_wi=2",
           imageAlt: "high quality renovation interior finishing",
         },
         {
