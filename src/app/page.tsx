@@ -17,27 +17,26 @@ export default function LandingPage() {
         defaultButtonVariant="elastic-effect"
         defaultTextAnimation="entrance-slide"
         borderRadius="pill"
+        contentWidth="medium"
+        sizing="medium"
+        background="circleGradient"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="gradient"
+        secondaryButtonStyle="glass"
+        headingFontWeight="normal"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Naslovnica",
-          id: "hero",
-        },
+          name: "Naslovnica",          id: "hero"},
         {
-          name: "O nama",
-          id: "about",
-        },
+          name: "O nama",          id: "about"},
         {
-          name: "Usluge",
-          id: "features",
-        },
+          name: "Usluge",          id: "features"},
         {
-          name: "Kontakt",
-          id: "contact",
-        },
+          name: "Kontakt",          id: "contact"},
       ]}
       brandName="UTVRDA d.o.o."
     />
@@ -46,47 +45,20 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="UTVRDA d.o.o. - Vaš pouzdan građevinski partner"
       description="Profesionalne građevinske usluge u Višnjevcu i okolici. Kvaliteta i sigurnost na prvom mjestu."
       buttons={[
         {
-          text: "Kontaktirajte nas",
-          href: "#contact",
-        },
+          text: "Kontaktirajte nas",          href: "#contact"},
       ]}
       carouselItems={[
-        {
-          id: "1",
-          imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg?_wi=1",
-          imageAlt: "Gradilište",
-        },
-        {
-          id: "2",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-architect-with-helmet-looking-away_23-2148269408.jpg",
-          imageAlt: "Gradilište",
-        },
-        {
-          id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-portrait-engineer-holding-plans_23-2148233682.jpg",
-          imageAlt: "Gradilište",
-        },
-        {
-          id: "4",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-modern-office-buildings-shanghai_1359-644.jpg",
-          imageAlt: "Gradilište",
-        },
-        {
-          id: "5",
-          imageSrc: "http://img.b2bpic.net/free-photo/construction-work-site_1398-2982.jpg",
-          imageAlt: "Gradilište",
-        },
-        {
-          id: "6",
-          imageSrc: "http://img.b2bpic.net/free-photo/illustration-construction-site_23-2151850241.jpg",
-          imageAlt: "Gradilište",
-        },
+        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg", imageAlt: "Gradilište" },
+        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-architect-with-helmet-looking-away_23-2148269408.jpg", imageAlt: "Gradilište" },
+        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-portrait-engineer-holding-plans_23-2148233682.jpg", imageAlt: "Gradilište" },
+        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/close-up-modern-office-buildings-shanghai_1359-644.jpg", imageAlt: "Gradilište" },
+        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/construction-work-site_1398-2982.jpg", imageAlt: "Gradilište" },
+        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/illustration-construction-site_23-2151850241.jpg", imageAlt: "Gradilište" }
       ]}
     />
   </div>
@@ -97,9 +69,7 @@ export default function LandingPage() {
       title="O nama"
       buttons={[
         {
-          text: "Saznajte više",
-          href: "#",
-        },
+          text: "Saznajte više",          href: "#"},
       ]}
     />
   </div>
@@ -111,68 +81,32 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Novogradnja",
-          description: "Izgradnja stambenih i poslovnih objekata po sistemu ključ u ruke.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/close-up-male-carpenter-s-hand-making-measurement-wooden-block_23-2147944869.jpg",
-            imageAlt: "Novogradnja",
-          },
+          title: "Novogradnja",          description: "Izgradnja stambenih i poslovnih objekata po sistemu ključ u ruke.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/close-up-male-carpenter-s-hand-making-measurement-wooden-block_23-2147944869.jpg",            imageAlt: "Novogradnja"},
           items: [
-            {
-              icon: CheckCircle,
-              text: "Stručna izvedba",
-            },
-            {
-              icon: Shield,
-              text: "Visoka kvaliteta materijala",
-            },
+            { icon: CheckCircle, text: "Stručna izvedba" },
+            { icon: Shield, text: "Visoka kvaliteta materijala" }
           ],
-          reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg?_wi=2",
-          imageAlt: "high quality renovation interior finishing",
+          reverse: false
         },
         {
-          title: "Renovacije",
-          description: "Kompletna adaptacija i uređenje postojećih prostora.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/white-business-center-with-beautiful-textures-unique-design-with-interior-staircases_181624-5365.jpg",
-            imageAlt: "Renovacije",
-          },
+          title: "Renovacije",          description: "Kompletna adaptacija i uređenje postojećih prostora.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/white-business-center-with-beautiful-textures-unique-design-with-interior-staircases_181624-5365.jpg",            imageAlt: "Renovacije"},
           items: [
-            {
-              icon: Zap,
-              text: "Brza adaptacija",
-            },
-            {
-              icon: Award,
-              text: "Moderni dizajn",
-            },
+            { icon: Zap, text: "Brza adaptacija" },
+            { icon: Award, text: "Moderni dizajn" }
           ],
-          reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-man-choosing-color_23-2148903521.jpg",
-          imageAlt: "high quality renovation interior finishing",
+          reverse: true
         },
         {
-          title: "Održavanje",
-          description: "Tehničko održavanje i sanacije objekata.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/construction-new-skycraper-dubai-united-arab-emirates_231208-7552.jpg",
-            imageAlt: "Održavanje",
-          },
+          title: "Održavanje",          description: "Tehničko održavanje i sanacije objekata.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/construction-new-skycraper-dubai-united-arab-emirates_231208-7552.jpg",            imageAlt: "Održavanje"},
           items: [
-            {
-              icon: Star,
-              text: "Pouzdanost",
-            },
-            {
-              icon: CheckCircle,
-              text: "Dugoročna podrška",
-            },
+            { icon: Star, text: "Pouzdanost" },
+            { icon: CheckCircle, text: "Dugoročna podrška" }
           ],
-          reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-woman-holding-hands-kitchen_23-2148363553.jpg",
-          imageAlt: "high quality renovation interior finishing",
-        },
+          reverse: false
+        }
       ]}
       title="Naše usluge"
       description="Nudimo kompletnu paletu građevinskih radova s fokusom na kvalitetu i trajnost izvedbe."
@@ -186,26 +120,11 @@ export default function LandingPage() {
       rating={5}
       author="Marko Horvat"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/man-woman-holding-hands-kitchen_23-2148363553.jpg",
-          alt: "Klijent 1",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/engineers-throwing-papers-air_23-2147704212.jpg",
-          alt: "Klijent 2",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-construction-worker-with-plans_329181-3732.jpg",
-          alt: "Klijent 3",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/close-up-side-view-engineer-architect-supervising-construction_23-2148233789.jpg",
-          alt: "Klijent 4",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-men-shaking-hands_23-2148920604.jpg",
-          alt: "Klijent 5",
-        },
+        { src: "http://img.b2bpic.net/free-photo/man-woman-holding-hands-kitchen_23-2148363553.jpg", alt: "Klijent 1" },
+        { src: "http://img.b2bpic.net/free-photo/engineers-throwing-papers-air_23-2147704212.jpg", alt: "Klijent 2" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-construction-worker-with-plans_329181-3732.jpg", alt: "Klijent 3" },
+        { src: "http://img.b2bpic.net/free-photo/close-up-side-view-engineer-architect-supervising-construction_23-2148233789.jpg", alt: "Klijent 4" },
+        { src: "http://img.b2bpic.net/free-photo/medium-shot-men-shaking-hands_23-2148920604.jpg", alt: "Klijent 5" }
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
@@ -215,9 +134,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplit
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Kontakt"
       title="Trebate građevinske radove?"
       description="Javite nam se na Ul. Petra Svačića 37A, Višnjevac ili nas nazovite na 098 232 063. Spremni smo za upite!"
