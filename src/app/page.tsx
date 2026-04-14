@@ -47,7 +47,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="UTVRDA d.o.o. - Vaš pouzdan građevinski partner"
-      description="Profesionalne građevinske usluge u Višnjevcu i okolici. Kvaliteta i sigurnost na prvom mjestu."
+      description="Profesionalne građevinske usluge u Osijeku i okolici. Kvaliteta i sigurnost na prvom mjestu."
       carouselItems={[
         { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg", imageAlt: "Gradilište" },
         { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-architect-with-helmet-looking-away_23-2148269408.jpg", imageAlt: "Gradilište" },
