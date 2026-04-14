@@ -50,7 +50,7 @@ export default function LandingPage() {
       description="Profesionalne građevinske usluge u Višnjevcu i okolici. Kvaliteta i sigurnost na prvom mjestu."
       buttons={[
         {
-          text: "Kontaktirajte nas",          href: "#contact"},
+          text: "Kontaktirajte nas",          href: "tel:098232063"},
       ]}
       carouselItems={[
         { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/crane-building_23-2147785502.jpg", imageAlt: "Gradilište" },
